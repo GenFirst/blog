@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PostComment" directorySegmentName="seg_0" id="60A8D3D9-3F48-FA89-AF24-6B3F35AF6B6A">
+<createdBy>vdimitrieski</createdBy>
+<createdTime>2016-05-21 09:28:58 UTC</createdTime>
+<ownerDesignName>er_model</ownerDesignName>
+<engineerTo>
+<item key="399491F5-298B-80D7-E4F1-DC794E6224ED" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>post</nameOnSource>
+<nameOnTarget>comments</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BCE2AB46-A499-35FF-C31D-61FFC6387555</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9AD1DF4A-0054-A39D-749E-C142195CEB71</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

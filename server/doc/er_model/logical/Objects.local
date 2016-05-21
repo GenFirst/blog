@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="9AD1DF4A-0054-A39D-749E-C142195CEB71" name="Comment" seqName="seg_0"/>
+   <object objectType="Entity" objectID="BCE2AB46-A499-35FF-C31D-61FFC6387555" name="Post" seqName="seg_0"/>
+   <object objectType="Entity" objectID="73A8F261-85BE-1FC3-0AC6-081FD461AFC8" name="User" seqName="seg_0"/>
+   <object objectType="Relation" objectID="6DA70C31-797E-B764-8EC4-97DD060FD6ED" name="CommentCreator" seqName="seg_0"/>
+   <object objectType="Relation" objectID="60A8D3D9-3F48-FA89-AF24-6B3F35AF6B6A" name="PostComment" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2DD5CCD8-6895-38C3-46CB-BEF815690715" name="PostCreator" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

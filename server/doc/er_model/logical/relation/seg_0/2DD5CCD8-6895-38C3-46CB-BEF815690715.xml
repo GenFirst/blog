@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PostCreator" directorySegmentName="seg_0" id="2DD5CCD8-6895-38C3-46CB-BEF815690715">
+<createdBy>vdimitrieski</createdBy>
+<createdTime>2016-05-21 09:27:12 UTC</createdTime>
+<ownerDesignName>er_model</ownerDesignName>
+<engineerTo>
+<item key="399491F5-298B-80D7-E4F1-DC794E6224ED" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>user</nameOnSource>
+<nameOnTarget>post</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>73A8F261-85BE-1FC3-0AC6-081FD461AFC8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BCE2AB46-A499-35FF-C31D-61FFC6387555</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

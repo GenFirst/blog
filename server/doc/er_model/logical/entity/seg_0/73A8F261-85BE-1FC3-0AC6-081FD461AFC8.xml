@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="73A8F261-85BE-1FC3-0AC6-081FD461AFC8" name="User">
+<createdBy>vdimitrieski</createdBy>
+<createdTime>2016-05-21 09:22:37 UTC</createdTime>
+<ownerDesignName>er_model</ownerDesignName>
+<engineerTo>
+<item key="399491F5-298B-80D7-E4F1-DC794E6224ED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="email" id="44640011-FB42-00FC-FAC2-A6073245F30C">
+<createdBy>vdimitrieski</createdBy>
+<createdTime>2016-05-21 09:23:15 UTC</createdTime>
+<ownerDesignName>er_model</ownerDesignName>
+<engineerTo>
+<item key="399491F5-298B-80D7-E4F1-DC794E6224ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Attribute>
+<Attribute name="password" id="0797A60A-598D-1DF5-A80B-8CA6130FAD68">
+<createdBy>vdimitrieski</createdBy>
+<createdTime>2016-05-21 09:26:37 UTC</createdTime>
+<ownerDesignName>er_model</ownerDesignName>
+<engineerTo>
+<item key="399491F5-298B-80D7-E4F1-DC794E6224ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Attribute>
+<Attribute name="firstName" id="454FA6ED-DE41-5CE7-D172-4D0248A17D12">
+<createdBy>vdimitrieski</createdBy>
+<createdTime>2016-05-21 09:23:25 UTC</createdTime>
+<ownerDesignName>er_model</ownerDesignName>
+<engineerTo>
+<item key="399491F5-298B-80D7-E4F1-DC794E6224ED" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Attribute>
+<Attribute name="lastName" id="D0033049-82AB-A988-D2BC-730D11A0457A">
+<createdBy>vdimitrieski</createdBy>
+<createdTime>2016-05-21 09:23:33 UTC</createdTime>
+<ownerDesignName>er_model</ownerDesignName>
+<engineerTo>
+<item key="399491F5-298B-80D7-E4F1-DC794E6224ED" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Attribute>
+<Attribute name="avatar" id="302CF3C2-D7AA-4505-D4F1-67204F86E913">
+<createdBy>vdimitrieski</createdBy>
+<createdTime>2016-05-21 09:23:53 UTC</createdTime>
+<ownerDesignName>er_model</ownerDesignName>
+<engineerTo>
+<item key="399491F5-298B-80D7-E4F1-DC794E6224ED" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Attribute>
+<Attribute name="summary" id="DB6272EC-A4C9-C44A-8B1F-C49B003FA260">
+<createdBy>vdimitrieski</createdBy>
+<createdTime>2016-05-21 09:24:08 UTC</createdTime>
+<ownerDesignName>er_model</ownerDesignName>
+<engineerTo>
+<item key="399491F5-298B-80D7-E4F1-DC794E6224ED" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ostCategories" directorySegmentName="seg_0" id="61055A6E-125A-0CB5-5B81-CFD65B173223">
+<createdBy>vdimitrieski</createdBy>
+<createdTime>2016-05-21 09:51:56 UTC</createdTime>
+<ownerDesignName>er_model</ownerDesignName>
+<engineerTo>
+<item key="399491F5-298B-80D7-E4F1-DC794E6224ED" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>posts</nameOnSource>
+<nameOnTarget>categories</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>BCE2AB46-A499-35FF-C31D-61FFC6387555</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B077A13D-3873-F7A4-A3DD-E77905442808</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

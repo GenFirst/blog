@@ -1,0 +1,22 @@
+version: '2'
+services:
+  db:
+    image: mysql:5.7.12
+    ports:
+      - "13306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: rails
+      MYSQL_USER: rails
+      MYSQL_PASSWORD: rails_pass
+      MYSQL_DATABASE: blog_development
+  web:
+    build: .
+    command: bundle exec rails s -p 3000 -b '0.0.0.0'
+    volumes:
+      - .:/myapp
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+    links:
+      - db
